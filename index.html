@@ -2,64 +2,164 @@
 <html lang="pt-BR">
 
 <head>
+    <!-- Define o conjunto de caracteres para suportar acentos e caracteres especiais -->
     <meta charset="UTF-8">
+    <!-- Define a escala inicial e a largura da página para melhor visualização em dispositivos móveis -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página exibido na aba do navegador -->
     <title>Discord - Seu Lugar para Conversar</title>
+    <!-- Importa o arquivo CSS externo para estilizar a página -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Preconecta ao Google Fonts para melhorar o carregamento de fontes externas -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="./img/Discrod_MainLogo.svg">
+    <!-- Cabeçalho do site -->
+    <header class="nav">
+        <button class="menu-toggle">☰</button>
+        <nav class="header-main">
+            <!-- Logo do Discord à esquerda -->
+            <div class="header-left">
+                <div class="logo">
+                    <img src="./img/Discord_MainLogo.svg" alt="Logo do Discord">
+                </div>
             </div>
-
-
-            <ul class="nav-links">
-                <li><a href="#">Baixar</a></li>
-                <li><a href="#">Nitro</a></li>
-                <li><a href="#">Descubra</a></li>
-                <li><a href="#">Segurança</a></li>
-                <li><a href="#">Suporte</a></li>
-                <li><a href="#">Login</a></li>
-            </ul>
+            <!-- Links de navegação no centro do cabeçalho -->
+            <div class="header-center">
+                <a href="#">Baixar</a>
+                <a href="#">Nitro</a>
+                <a href="#">Descubra</a>
+                <a href="#">Segurança</a>
+                <a href="#">Suporte</a>
+            </div>
+            <!-- Link de login à direita -->
+            <div class="header-right">
+                <a href="#">Login</a>
+            </div>
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>IMAGINE UM LUGAR...</h1>
-        <p>...onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial.</p>
-        <div class="hero-buttons">
-            <button class="btn btn-white">Baixar para Windows</button>
-            <button class="btn btn-black">Abrir no Navegador</button>
-        </div>
-    </section>
-
-    <section class="features">
-        <div class="feature">
-            <h2>Crie um espaço controlado por convite onde você se sinta em casa</h2>
-            <p>Servidores Discord são organizados em canais...</p>
-        </div>
-        <div class="feature">
-            <h2>Aqui é fácil se encontrar</h2>
-            <p>Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar imediatamente, sem nem ter que fazer a chamada.
+    <!-- Seção principal de destaque -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1>IMAGINE UM <br> LUGAR...</h1>
+            <p>
+                …onde você possa pertencer a um clube escolar, um grupo de gamers, ou uma comunidade artística mundial.
+                Onde você e alguns amigos possam passar um tempo juntos. Um lugar que torna fácil conversar todos os
+                dias e socializar com mais frequência.
             </p>
-        </div>
-        <div class="feature">
-            <h2>Para poucos e para muitos</h2>
-            <p>Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes
-                especiais aos membros, monte canais privados e muito mais.</p>
+            <div class="hero-buttons">
+                <!-- Botões de chamada para ação -->
+                <a href="#" class="btn windows">Baixar para Windows</a>
+                <a href="#" class="btn browser">Abra o Discord no seu navegador</a>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <div class="footer-content">
-            <p>&copy; 2025 Discord - Todos os direitos reservados.</p>
+    <!-- Seções de recursos -->
+    <section class="feature-section">
+        <div class="feature-container">
+            <!-- Imagem representando a funcionalidade -->
+            <div class="feature-image">
+                <img src="./img/feature-image.png" alt="Comunidade no Discord">
+            </div>
+            <!-- Texto explicativo sobre o recurso -->
+            <div class="feature-text">
+                <h2>Crie um espaço controlado por convite onde você se sinta em casa</h2>
+                <p>
+                    Os servidores Discord são organizados em canais com assuntos para vocês colaborarem, compartilharem
+                    ou simplesmente falarem do dia sem entupir um chat geral.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="feature-container">
+            <div class="feature-text">
+                <h2>Aqui é fácil se encontrar</h2>
+                <p>
+                    Entre no canal de voz quando estiver à toa. Amigos no mesmo servidor podem te ver e entrar
+                    imediatamente, sem nem ter que fazer a chamada.
+                </p>
+            </div>
+            <div class="feature-image">
+                <img src="./img/feature-image1.png" alt="Comunidade no Discord">
+            </div>
+        </div>
+    </section>
+
+    <section class="feature-section">
+        <div class="feature-container">
+            <div class="feature-image">
+                <img src="./img/feature-image2.png" alt="Comunidade no Discord">
+            </div>
+            <div class="feature-text">
+                <h2>Para poucos e para muitos</h2>
+                <p>
+                    Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê
+                    poderes especiais aos membros, monte canais privados e muito mais.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção adicional com destaque em tecnologia -->
+    <section class="extra-section">
+        <div class="extra-content">
+            <div class="extra-text">
+                <h2>Tecnologia de Conexão <br> Confiável</h2>
+                <p>
+                    Voz e vídeo de baixa latência, para você conversar como se estivesse na mesma sala. Dê um joinha
+                    por vídeo, veja amigos transmitirem a jogatina do dia ou junte uma galera pra desenhar na tela
+                    compartilhada.
+                </p>
+            </div>
+            <div class="extra-image">
+                <img src="./img/feature-image3.png" alt="Tecnologia de conexão confiável">
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé do site -->
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Logo do Discord no rodapé -->
+            <div class="footer-logo">
+                <img src="./img/Discord_MainLogo.svg" alt="Logo Discord">
+            </div>
+            <!-- Data dinâmica no rodapé -->
+            <div class="footer-date">
+                <p>&copy; <span id="year"></span> Discord. Todos os direitos reservados.</p>
+                <p>&copy; <span id="year"></span> Clone Feito por Emerson Felix - emersonfsti@gmail.com</p>
+            </div>
         </div>
     </footer>
+
+    <script>
+        // Atualiza automaticamente o ano no rodapé
+        document.getElementById("year").textContent = new Date().getFullYear();
+
+        // Adiciona efeito ao cabeçalho quando a página é rolada
+        window.addEventListener("scroll", function () {
+            let header = document.querySelector(".nav");
+            if (window.scrollY > 50) { // Quando rolar mais de 50px
+                header.classList.add("header-scrolled");
+            } else {
+                header.classList.remove("header-scrolled");
+            }
+        });
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menu = document.querySelector(".header-center");
+
+            menuToggle.addEventListener("click", function () {
+                menu.classList.toggle("active"); // Alterna entre mostrar e esconder
+            });
+        });
+    </script>
 </body>
 
 </html>
