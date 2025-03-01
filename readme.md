@@ -27,8 +27,6 @@ Aqui está o link do protótipo no **Figma**, apresentado pela Expert durante o 
 📌 *Analista e Consultor com experiência em Oracle EBS e Desenvolvimento Web*  
 📌 *Transição de carreira para Programador JavaScript*  
 
-🔗 [LinkedIn](https://www.linkedin.com/in/emersonfelixdesouza)  
-🔗 [GitHub](https://github.com/emersonfsti)  
 
 ---  
 🚀 **Desenvolvido com dedicação para aprimorar habilidades em desenvolvimento web!**  
